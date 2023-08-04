@@ -1,0 +1,351 @@
+/*header css*/
+header.main-header div#navbarSupportedContent {
+	justify-content: end;
+}
+header.main-header .row {
+	align-items: center;
+}
+header.main-header img {
+	max-width: 300px;
+}
+header.main-header {
+	position: relative;
+	z-index: 1;
+	width: 100%;
+}
+li.nav-item a {
+	color: #000;
+	font-size: 18px;
+	font-weight: 600;
+	margin: 0px 15px;
+}
+.hero-section{
+	position: relative;
+	margin-top: -110px;
+}
+.carousel-item {
+	height: 70vh;
+	min-height: 350px;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.carousel-caption {
+	position: absolute !important;
+	top: 50% !important;
+	left: 6% !important;
+	text-align: left !important;
+}
+.carousel-control-next, .carousel-control-prev {
+	width: 5% !important;
+}
+.carousel-caption h4 {
+	font-size: 30px;
+	text-transform: uppercase;
+	color: black;
+}
+.carousel-caption h2 {
+	font-weight: normal;
+	color: red;
+	text-transform: uppercase;
+	font-size: 55px;
+}
+.carousel-caption p {
+	color: black;
+	font-weight: 600;
+}
+/*End header css*/
+/*banner section*/
+.owl-item .item h4 {
+	color: #000;
+	font-size: 30px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.owl-item .item h1 {
+	color: #df0202;
+	font-size: 60px;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+.owl-item .item p {
+	color: #000;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+/*End banner css*/
+.home-page {
+	background-color: #e8e8e8;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.shop-cols {
+	background-color: #f7f7f7;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.shop-cols .col-inner {
+	background-color: #fff;
+}
+.vehicle-image img {
+	width: 100%;
+}
+h3 {
+	font-weight: 700 !important;
+}
+.shop-cols .content {
+	text-align: center;
+	padding: 0px 10px;
+}
+.shop-cols .content h3 {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	height: 50px;
+}
+.col-btns-div-main .inner {
+	display: flex;
+	background-color: #df0202;
+	padding: 15px 0px;
+	max-width: 90%;
+	margin: auto;
+}
+.col-btns-div-main .inner a {
+	color: #fff;
+	text-decoration: none;
+	width: 100%;
+	text-align: center;
+}
+/*
+.col-btns-div-main .inner a:first-child {
+	border-right: 2px solid #fff;
+}
+*/
+section.login-sec {
+	background-color: #e8e8e8;
+	padding: 70px 0px;
+}
+.login-sec .col-inner {
+	text-align: center;
+	padding: 30px 0px;
+	background-color: #fff;
+	height: 100%;
+}
+.login-sec .col-inner h3 {
+	color: #df0202;
+	margin-bottom: 30px;
+}
+.login-col-main {
+	background-color: #fff;
+	padding: 70px 0px;
+}
+.login-sec .login-col-main:first-child {
+	padding-right: 0px !important;
+}
+.login-sec .login-col-main:nth-child(2) {
+	padding-left: 0px !important;
+}
+.login-input input{
+	max-width: 60%;
+	width: 100%;
+	padding: 5px 5px;
+	margin-bottom: 15px;
+}
+
+.login_form #loginform-custom p.login-username input[type="text"],
+.login_form #loginform-custom p.login-password input[type="password"]{
+	max-width: 60%;
+	width: 100%;
+	padding: 5px 5px;
+	margin-bottom: 15px;
+}
+.login_form #loginform-custom p.login-submit input[type="submit"],
+.wp-user-form .login_fields .user-submit{
+    color: #fff;
+    background-color: #df0202;
+    text-decoration: none;
+    padding: 8px 45px;
+}
+.login_fields{
+	margin-top: 30px;
+}
+
+.login-sec .login-col-main:first-child .col-inner {
+	border-right: 3px solid #df0202;
+}
+.login-input {
+	margin-top: 30px;
+}
+.forgot-pass-btn a {
+	color: #000;
+	text-decoration: none;
+	text-align: end;
+	display: block;
+}
+.forgot-pass-btn {
+	max-width: 60%;
+	width: 100%;
+	margin: auto;
+}
+.submit-btn a {
+	color: #fff;
+	background-color: #df0202;
+	text-decoration: none;
+	padding: 8px 45px;
+}
+.submit-btn {
+	margin-top: 30px;
+}
+.container-2 {
+	max-width: 1350px;
+	margin: auto;
+}
+section.vendor-states {
+	padding: 70px 0px;
+}
+.states-col-inner a {
+	color: #df0202;
+	font-weight: 700;
+}
+.states-col-inner ul {
+	padding: 0px;
+	list-style: none;
+	margin: 10px 0px;
+}
+.states-col-inner ul li {
+	margin: 5px 0px;
+	font-weight: 600;
+}
+.states-col-inner ul li.on {
+	color: #df0202;
+	font-weight: 700;
+}
+.text-align-right {
+	text-align: right;
+}
+#states *.on {
+	fill: red;
+}
+section.copyright {
+	background-color: #010042;
+}
+.copyright p {
+	margin: 0;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	padding: 10px 0px;
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+	.container-2 {
+		width: 95%;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.container-2 {
+		width: 95%;
+	}
+	.shop-cols .col-inner {
+		margin-bottom: 40px;
+	}
+	.inner-nav {
+		float: right;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	.shop-cols .col-inner {
+		margin-bottom: 40px;
+	}
+	.carousel-item {
+		height: 65vh;
+	}
+	.carousel-caption {
+		top: 25% !important;
+	}
+	.login-sec .login-col-main:first-child .col-inner {
+		border: none;
+	}
+	.container-2 {
+		width: 95%;
+	}
+	.carousel-caption h4 {
+		font-size: 20px;
+	}
+	.carousel-caption h1 {
+		font-size: 35px;
+	}
+	.states-col-inner {
+		text-align: center;
+		margin: 70px 0px;
+	}
+	section.hero-section {
+		padding: 0;
+	}
+	header.main-header img {
+		max-width: 140px;
+	}
+	nav.navbar.navbar-expand-lg.navbar-light {
+		justify-content: end;
+	}
+	header.main-header .row {
+		align-items: unset;
+	}
+	header.main-header div#navbarSupportedContent {
+		background-color: white;
+	}
+}
+
+.page_title{
+	color: #df0202 !important;
+	text-decoration: none !important;
+	transition: all 0.8s;
+}
+.page_title:hover{
+	text-decoration: underline !important;
+	transition: all 0.8s;
+}
+
+.blog_txt{
+	color: #000 !important;
+	text-decoration: none !important;
+}
+
+.read_more{
+	background-color: #df0202;
+	padding: 10px;
+	color: #fff !important;
+	text-decoration: none;
+	transition: all 0.8s;
+}
+.read_more:hover{
+	text-decoration: underline;
+	border-radius: 5px;
+	transition: all 0.8s;
+}
+
+.social_media .list-inline{
+	list-style: none inside;
+}
+.social_media .list-inline li{
+	display: inline-block;
+}
+.social_media .list-inline li a{
+	font-size: 28px;
+	text-decoration: none !important;
+	color: #df0202 !important;
+	margin: 0px 10px;
+	padding: 5px;
+    border-radius: 5px;
+	min-width: 40px;
+	transition: all 0.8s;
+}
+.social_media .list-inline li a:hover{
+	background-color: #df0202 !important;
+	color: #fff !important;
+}
+
+.social_media{
+	padding-top: 20px;
+}
